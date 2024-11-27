@@ -169,6 +169,35 @@
             background-color: #e74c3c;
             color: white;
         }
+        <style>
+    /* Original styles */
+    body {
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        background: url('A_whimsical,_cartoony_North_Pole_landscape_at_nigh.png') no-repeat center center fixed;
+        background-size: cover;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+
+    header h1 {
+        font-size: 4rem;
+        margin: 0;
+        text-shadow: 2px 2px 5px #000;
+    }
+
+    /* Mobile override styles */
+    @media (max-width: 768px) {
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header h1, header p, .main h2, .main p, footer {
+            font-family: Arial, sans-serif;
+        }
+    }
+</style>
+
     </style>
 </head>
 <body>
